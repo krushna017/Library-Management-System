@@ -1,0 +1,141 @@
+#!/bin/bash
+
+
+echo
+echo
+echo "################################################"
+echo "#                                              #"
+echo "#            Welcome to MCA Library.           #"
+echo "#                                              #"
+echo "################################################"
+echo
+echo
+
+while [ true ]
+do
+
+
+echo "Slect 1 Option.(From A-D) "       
+echo "A = List All The Books."
+echo "B = Request a Book."
+echo "C = Return a Book."
+echo "D = Exit The Library."
+echo
+sleep 1s
+
+echo "Enter An Choice :"
+read choice
+
+echo " "
+echo " "
+
+if [ $choice == A ]
+then
+        echo "List All The Books Of MCA."
+        echo "  ->Adv.Java."
+        echo "  ->Math."
+        echo "  ->SPM."
+        echo "  ->Python."
+        echo "  ->Advance Database Mang.Sys."
+        echo "  ->SQL."
+        echo "  ->Linux."
+
+        sleep 1s
+
+echo " "
+
+elif [ $choice == B ]
+then
+        echo "Which Book You Want From MCA Library ? "
+        read name
+        echo okay......
+
+        sleep 1s
+echo " "
+echo " "
+
+elif [ $choice == C ]
+then
+        echo "Which book You want to Return To The Library?"
+        read returnbook
+        sleep 1s
+        echo "Thank You For Returning this $returnbook book! Hope You Enjoyed Reading it.Have A Great Day ahed"
+
+        sleep 2s
+
+echo " "
+
+elif [ $choice == D ]
+then
+ echo " Thank You !!! Visit Again.Have A Great Day ahed.   "
+ sleep 1s
+
+        exit
+
+ sleep 1s
+
+ echo " " 
+
+else
+        echo "Inavalid choice "
+
+        echo " "
+fi
+done
+                                                                                  
+                                                                                  
+                                                                                  
+OutPut:-
+
+################################################
+#                                              #
+#            Welcome to MCA Library.           #
+#                                              #
+################################################
+
+
+Slect 1 Option.(From A-D) 
+A = List All The Books.
+B = Request a Book.
+C = Return a Book.
+D = Exit The Library.
+
+Enter An Choice :
+A
+ 
+ 
+List All The Books Of MCA.
+  ->Adv.Java.
+  ->Math.
+  ->SPM.
+  ->Python.
+  ->Advance Database Mang.Sys.
+  ->SQL.
+  ->Linux.
+ 
+Slect 1 Option.(From A-D) 
+A = List All The Books.
+B = Request a Book.
+C = Return a Book.
+D = Exit The Library.
+
+Enter An Choice :
+C
+ 
+Which book You want to Return To The Library?
+java
+Thank You For Returning this java book! Hope You Enjoyed Reading it.Have A Great Day ahed
+
+ 
+Slect 1 Option.(From A-D) 
+A = List All The Books.
+B = Request a Book.
+C = Return a Book.
+D = Exit The Library.
+
+Enter An Choice :
+D
+ 
+ Thank You !!! Visit Again.Have A Great Day ahed.
+ 
+ 
